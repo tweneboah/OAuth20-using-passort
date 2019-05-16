@@ -1,0 +1,19 @@
+{
+  "name": "oauth",
+  "version": "1.0.0",
+  "description": "This is my guide for using passport-google-oauth20 authentication and cookie-session for authentication",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tweneboah/OAuth.git"
+  },
+  "author": "Tweneboah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tweneboah/OAuth/issues"
+  },
+  "homepage": "https://github.com/tweneboah/OAuth#readme"
+}
