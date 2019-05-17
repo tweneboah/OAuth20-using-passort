@@ -13,6 +13,18 @@ module.exports = (app) => {
         )
 
         //This route will authenticate the user before sending the users code to google for get their their data and if everything goes on well all the users data can be found that redirect url
-        app.get('/auth/google/callback', passport.authenticate('google'))
+        app.get('/auth/google/callback', passport.authenticate('google'));
+
+        //LOGOUT
+        app.get('/logout', (req, res) => {
+               res.send(`<h1>You have logout</h1>`) 
+        })
+
+        //ROUTES FOR USER SIGNED 
+        app.get('/api/current_user', (req, res) => {
+                res.send(req.user) 
+        })
 }
+
+
 
