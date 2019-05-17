@@ -50,6 +50,7 @@ passport.use( new GoogleStrategy({
         //We already have a record
         //We can redirect or do whatever you want here
         done(null, existingUser)
+        
       }else {
         //Saving the new user
         new User({
