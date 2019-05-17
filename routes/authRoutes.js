@@ -17,6 +17,7 @@ module.exports = (app) => {
 
         //LOGOUT
         app.get('/logout', (req, res) => {
+                req.logout()
                res.send(`<h1>You have logout</h1>`) 
         })
 
